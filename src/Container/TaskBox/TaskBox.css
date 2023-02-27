@@ -1,0 +1,21 @@
+.taskBoxContainer {
+  margin-top: 10vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+.task {
+  color: white;
+  background-color: #1976d2;
+  width: 20vw;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+}
+span {
+  margin-left: 2%;
+}
