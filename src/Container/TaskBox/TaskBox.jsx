@@ -6,15 +6,7 @@ const TaskBox = () => {
     <div className="taskBoxContainer">
       <div className="task">
         <span>TaskBox 1</span>
-      </div>
-      <div className="task">
-        <span>TaskBox 2</span>
-      </div>
-      <div className="task">
-        <span>TaskBox 3</span>
-      </div>
-      <div className="task">
-        <span>TaskBox 4</span>
+        <button className="removeBtn"></button>
       </div>
     </div>
   );

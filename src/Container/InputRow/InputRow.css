@@ -1,6 +1,6 @@
 .inputRowContainer {
   margin-top: 6rem;
-  width: 100vw;
+  width: 30%;
   display: flex;
   justify-content: center;
   gap: 1rem;
@@ -10,7 +10,7 @@ button {
   background-color: #1976d2;
   color: white;
   font-size: 18px;
-  width: 5vw;
+  width: 20%;
   height: 6vh;
   border: none;
   border-radius: 8px;
@@ -22,7 +22,7 @@ button:hover {
   opacity: 80%;
 }
 input {
-  width: 15vw;
+  width: 80%;
   height: 5vh;
   background-color: #212529;
   border: #1976d2 solid 2px;
