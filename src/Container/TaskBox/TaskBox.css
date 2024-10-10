@@ -7,6 +7,7 @@
   gap: 1rem;
   align-items: center;
 }
+
 .task {
   display: flex;
   justify-content: end;
@@ -30,7 +31,7 @@ span {
   margin-right: 1rem;
   width: 2vw;
   height: 4vh;
-  background-image: url("../../assets/xmark-solid.svg");
+  background-image: url('../../assets/xmark-solid.svg');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -38,10 +39,43 @@ span {
   transition: all ease-in-out 0.2s;
 }
 
+.completedBtn {
+  margin-left: 0.2rem;
+  width: 4vw;
+  height: 4vh;
+  background-color: #1976d2;
+  background-image: url('../../assets/check-solid.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0;
+}
+
+.completedMarker {
+  margin-left: 0.2rem;
+  width: 4vw;
+  height: 4vh;
+  background-image: url('../../assets/check-solid.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: green;
+  opacity: 100%;
+  transition: all ease-in-out 0.6s;
+}
+
+.task:hover .completedBtn {
+  opacity: 100%;
+  transition: all ease-in-out 0.4s;
+}
+.completedBtn:hover {
+  transition: all ease-in-out 0.4s;
+}
+
 .task:hover .removeBtn {
   opacity: 100%;
   width: 2vw;
   height: 4vh;
-  background-image: url("../../assets/xmark-solid.svg");
+  background-image: url('../../assets/xmark-solid.svg');
   background-color: crimson;
 }
